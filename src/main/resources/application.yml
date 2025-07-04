@@ -1,0 +1,35 @@
+# Tomcat
+server:
+  port: 1999
+  servlet:
+    context-path: /yisekai
+# Spring
+spring:
+  application:
+    # 应用名称
+    name: yisekai
+  profiles:
+    active: dev
+  main:
+    allow-bean-definition-overriding: true
+
+
+
+mybatis-plus:
+  # mapper 文件的路径，多个值用逗号隔开
+  mapper-locations: classpath:mapper/*.xml
+  # 实体类所在的包路径，多个值用逗号隔开
+  typeAliasesPackage: com.yisekai.domain.entity
+  global-config:
+    db-config:
+      id-type: auto
+      logic-delete-field: deleted
+      logic-not-delete-value: 0
+      logic-delete-value: 1
+
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+
+
+
