@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com</groupId>
-    <artifactId>yisekai-auth</artifactId>
+    <artifactId>yisekai-manager</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>yisekai</name>
     <description>yisekai</description>
@@ -127,7 +127,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>${spring-boot.version}</version>
                 <configuration>
-                    <mainClass>com.yisekai.auth.YisekaiApplication</mainClass>
+                    <mainClass>com.yisekai.manager.YisekaiApplication</mainClass>
                 </configuration>
                 <executions>
                     <execution>

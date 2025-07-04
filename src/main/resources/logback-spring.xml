@@ -4,7 +4,7 @@
     <contextName>yisekai</contextName>
     <!--<include resource="org/springframework/boot/logging/logback/base.xml"/>-->
     <!--<property name="filePath" value="${user.dir}/damp-boss/logs"></property>-->
-    <property name="filePath" value="logs/yisekai-auth"/>
+    <property name="filePath" value="logs/yisekai-manager"/>
     <property name="patternFormat"
               value="%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level [%X{traceId}] %logger{50} - %msg%n"></property>
     <!-- %d{yyyy-MM-dd HH:mm:ss.SSS} %-5level %logger Line:%-3L - %msg%n-->
@@ -77,7 +77,7 @@
     </appender>
 
 
-    <logger name="com.yisekai.auth" level="INFO" />
+    <logger name="com.yisekai.manager" level="INFO" />
     <logger name="com.apache.ibatis" level="INFO"/>
     <logger name="java.sql.Connection" level="INFO"/>
     <logger name="java.sql.Statement" level="INFO"/>
