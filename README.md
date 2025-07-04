@@ -1,2 +1,2 @@
-# yisekai-auth
-转生吧auth服务
+# yisekai-nanager
+转生吧nanager服务
